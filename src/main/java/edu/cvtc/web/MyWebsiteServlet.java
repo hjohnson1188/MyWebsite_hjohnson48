@@ -34,7 +34,7 @@ public class MyWebsiteServlet extends HttpServlet {
 		response.getWriter().append("li{display: inline;text-decoration: none;color: #AABEE4}</style></head>");
 		response.getWriter().append("<body><header><h1>Heather Johnson's Webpage</h1></header>");
 		//response.getWriter().append("<ul><li><a href="MyWebsiteHomeServlet.java">Home</a></li><li><a href="">Contact</a></li><li><a href="AboutServlet.java">About</a></li></ul><section>");
-		response.getWriter().append("<p> </p></section><footer><p>&copy; Heather Johnson 2016</p></footer></body></html>");
+		response.getWriter().append("<p>Welcome to my website!</p></section><footer><p>&copy; Heather Johnson 2016</p></footer></body></html>");
 		
 	}
 
